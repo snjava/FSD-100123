@@ -1,4 +1,4 @@
-# Core Java, Spring Boot
+# Core Java, SQL, Spring Boot
 
 * **[Core Java](https://github.com/snjava/FSD-100123/tree/main/code/corejava)**
 #### Core Java Reference Document _([here](https://github.com/snjava/FSD-100123/blob/main/docs/CoreJava.docx))_
