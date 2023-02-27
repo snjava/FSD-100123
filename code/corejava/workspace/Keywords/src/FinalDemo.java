@@ -3,6 +3,7 @@ public class FinalDemo {
 	public static void main(String[] args) {
 		CompanyDetails details = new CompanyDetails();
 		System.out.println("Company Name " + details.name);
+		details.policies();
 	}
 }
 
