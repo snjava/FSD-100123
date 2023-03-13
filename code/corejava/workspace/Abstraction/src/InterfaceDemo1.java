@@ -7,9 +7,9 @@ public class InterfaceDemo1 {
 
 interface Vehicle {
 	int x = 10;   // public static final int x = 10;
-	void brand(); // public abstract void brand();
-	void fual();
-	void noOfWheels();
+	public abstract void brand(); // public abstract void brand();
+	public abstract void fual();
+	public abstract void noOfWheels();
 }
 
 abstract class Car1 implements Vehicle {
