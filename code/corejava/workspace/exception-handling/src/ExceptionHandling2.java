@@ -8,7 +8,11 @@ public class ExceptionHandling2 {
 		int arr[] = {56,34,6,0,12,65,0};
 		Scanner scan =new Scanner(System.in);
 		
-			FileReader read = new FileReader("D:\\test.txt");
+			try {
+				FileReader read = new FileReader("D:\\test.txt");
+			} catch (FileNotFoundException e) {
+				e.printStackTrace();
+			}
 	
 		
 		try {
