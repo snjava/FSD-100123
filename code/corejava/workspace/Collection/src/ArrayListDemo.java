@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Vector;
 
 public class ArrayListDemo {
 	public static void main(String[] args) {
@@ -8,7 +9,7 @@ public class ArrayListDemo {
 		//int arr[] = {234,345,57,457,34,34,546};
 		//List lst = Arrays.asList(arr);
 		
-		ArrayList list = new ArrayList();
+		Vector list = new Vector();
 		list.add(123);
 		list.add("Abc");
 		list.add(12.3);
